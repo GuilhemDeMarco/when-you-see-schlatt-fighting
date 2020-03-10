@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class spawnSchlatttWalk : MonoBehaviour
 {
     public GameObject prefab;
     public float time = 2.0f;
@@ -10,17 +10,13 @@ public class test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("testt", time, repeatRate);
+        InvokeRepeating("spawnSchlattWalk", time, repeatRate);
     }
 
     // Update is called once per frame
-    void Update()
+    
+    void spawnSchlattWalk()
     {
-        
-    }
-    void testt()
-    {
-        Debug.Log("test");
         Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);
     }
 }

@@ -827,7 +827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3935348926726616189, guid: 20b0eb83ea712e54daaf57bf9363724f, type: 3}
   time: 2
-  repeatRate: 2
+  repeatRate: 1
 --- !u!4 &1520609786
 Transform:
   m_ObjectHideFlags: 0
